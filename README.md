@@ -2,9 +2,16 @@
 
 This repository has several codes to calculate the potential of mean force (pmf) based on radial distribution function (rdf) of protein-protein interaction. The input are rdf files generated with a modified version of Faunus packages (https://github.com/mlund/faunus). Codes were employed to calculate pmf curves in the publication: https://doi.org/10.1016/j.virusres.2022.198838. Here is showing an example simplified!
 
-# 0. Cleaning directory
+# 0. Unzip and cleaning directory
 
-Start cleaning the directory
+Unzkip the file 'DATA.tar.gz'.
+
+	tar -xzvf DATA.tar.gz
+	
+   Notes:
+   - We strictly recommend using the same composition of folders and subfolders as the 'DATA' directory.
+
+Start cleaning the directory.
 
 	chmod +x z.clean.sh ; ./z.clean.sh ; chmod -x z.clean.sh
 
@@ -33,7 +40,7 @@ Combine the rdf files in a unique directory. During the calculation just curves 
 	./2.combine_data.sh > 2.combine_data.log
 
  - The output generated 2.total_number_curves.log will show the total number of curves per condition.
- - The output 2.curves_bad.dat will show curves with problems of sampling
+ - The output 2.curves_bad.dat will show curves with problems of sampling.
 
 # 3. Convert rdf to pmf 
 
@@ -91,3 +98,8 @@ To calculate the virial, we should separate in sets of curves the three contribu
 	./9.virial.sh
  
  - This script will create csv, log, and xvg files too.
+
+NOTE: ALL SCRIPTS CAN BE EXECUTE ONCE USING: 
+
+	chmod +x 0.README
+	./0.README
