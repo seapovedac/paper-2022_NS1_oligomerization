@@ -1,6 +1,6 @@
 # rdf2pfm
 
-This repository has several codes to calculate the potential of mean force based on radial distribution function (rdf) of protein-protein interaction. The input are rdf files generated with a modified version of Faunus packages (https://github.com/mlund/faunus). Codes were employed to calculate pfm curves in the publication: https://doi.org/10.1016/j.virusres.2022.198838. Here is showing an example simplified!
+This repository has several codes to calculate the potential of mean force (pmf) based on radial distribution function (rdf) of protein-protein interaction. The input are rdf files generated with a modified version of Faunus packages (https://github.com/mlund/faunus). Codes were employed to calculate pmf curves in the publication: https://doi.org/10.1016/j.virusres.2022.198838. Here is showing an example simplified!
 
 # 0. Cleaning directory
 
