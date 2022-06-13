@@ -4,7 +4,7 @@ This repository has several codes to calculate the potential of mean force (pmf)
 
 # 0. Unzip and cleaning directory
 
-Unzkip the file 'DATA.tar.gz'.
+Unzip the file 'DATA.tar.gz'.
 
 	tar -xzvf DATA.tar.gz
 	
