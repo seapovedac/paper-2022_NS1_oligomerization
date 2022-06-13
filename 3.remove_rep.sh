@@ -11,7 +11,7 @@ for ((i=1 ; i<=$total ; i+=1)) do
 		rep_aux=$[ $rep - 1 ]
 		grep -w "^$i" 0.comparison2.dat | tail -n$rep_aux | cut -f2 > aux_com
 
-		# Removing repetitions
+		# Removing repeats
 		for ((j=1 ; j<=$rep_aux ; j+=1)); do
 					
 			rep2=$(head -n$j aux_com | tail -n1)
