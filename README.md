@@ -50,7 +50,7 @@ Convert rdf to pmf (3.pmf.py), compare curves (3.comparison.py), and remove redu
  	chmod +x 3.convert_rdf2pmf.sh
 	./3.convert_rdf2pmf.sh > 3.convert_rdf2pmf.log # Will call the three different scripts.
 
-# 4. Calculate the average between pmf curves.
+# 4. Calculate the average between pmf curves
 
  	echo 4.calculate_average.sh
  	chmod +x 4.calculate_average.sh
