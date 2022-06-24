@@ -24,7 +24,6 @@ Evaluation of aam used for simulation to detect match with the correct aam struc
  	./1.aam_data.sh > 1.aam_data.log
 
 - The script will generate an output called 1.aam_data.log, where it will be shown if the structure is different ("YES") or not ("NO").
-- Create an excel file with the output 1.valid_data.txt.
 
 # 2. Combine the rdf files
 
