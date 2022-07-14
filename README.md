@@ -54,6 +54,12 @@ Convert rdf to pmf (3.pmf.py), compare curves (3.comparison.py), and remove redu
  	echo 4.calculate_average.sh
  	chmod +x 4.calculate_average.sh
  	./4.calculate_average.sh > 4.calculate_average.log
+	
+Script follow the next flow chart:
+
+<p align="center">
+<img src="Picture1.png" width=800 </div>
+</p>
 
 # 5. Calculate curves with different bin
 
